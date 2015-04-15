@@ -12,4 +12,4 @@ The program has access to IEEE Xplore Search Gateway(http://ieeexplore.ieee.org/
 * [IEEE Xplore Gateway](http://ieeexplore.ieee.org/gateway/)
 
 ### Acknowledgements
-For data retrieval, I used [IEEER](https://github.com/ropensci/IEEER) package to get access to IEEE Xplore Gateway and retrieve a large amont of data.  Thank you so much for the great work. 
+For data retrieval, I used [IEEER](https://github.com/ropensci/IEEER) package to get access to IEEE Xplore Gateway and retrieve a large amount of data.  Thank you so much for the great work. 
