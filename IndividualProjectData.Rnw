@@ -225,13 +225,13 @@ for(i in 1:length(arrAffs)){
 sortedTable <- sort(table(countries), TRUE)[1:5]
 
 # convert table into data frame
-df <- data.frame(sortedTable)
+df2 <- data.frame(sortedTable)
 
 
 # Add rank label
-colnames(df) <- c("Num")
+colnames(df2) <- c("Num")
 c1<-c("1.","2.","3.","4.","5.")
-cols<-paste(c1, row.names(df), sep=" ")
+cols<-paste(c1, row.names(df2), sep=" ")
 
 @
 
@@ -239,14 +239,14 @@ cols<-paste(c1, row.names(df), sep=" ")
 <<makeTable,results = 'asis',include=TRUE>>=
 ## Printing a table using xtable ##
 caption <- "Top 5 countries publishing medical image processing journals in 2014"
-print(xtable(df, caption=caption),
+print(xtable(df2, caption=caption),
       caption.placement="top", include.rownames=TRUE)
 
 @
 
 <<showGraph2, include=TRUE, fig.height= 5>>=
 # Make a bar chart
-g <- ggplot(df, aes(x=cols, y=Num))
+g <- ggplot(df2, aes(x=cols, y=Num))
 g + xlab("Countries") + ylab("Number of journals") + geom_bar(stat="identity")+ labs(title = "Graph 2. Top 5 countries publishing medical image processing journals in 2014")
 
 @
