@@ -1,77 +1,148 @@
-\documentclass{article}
+\documentclass[a4paper]{article}
 
-\begin{document}
-\section*{What were the most popular topics in IEEE publications in 2014?}
+%%%%%%%%%%%%%%% Article Preamble %%%%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref}
+\usepackage[authoryear]{natbib}
+\usepackage{listings}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=20mm,
+ right=20mm,
+ top=20mm,
+ bottom=20mm,
+ }
+ 
+<<Global, include=FALSE>>=
+##install.packages("repmis")
 
-<<cleanData, echo=FALSE>>=
+opts_chunk$set(fig.align='center')
 
-## import packages
-require("XML")
-require("ggplot2")
+PackagesUsed <- c("IEEER", "ggplot2", "xtable")
 
-## Retrieving data of open-access academic journals published by IEEE in 2014
-## Total number of journals is around 1200 as of Mar 27 2015, so data is retrived in twice
-
-## Retrieve first 600 journals
-file1<-"http://ieeexplore.ieee.org/gateway/ipsSearch.jsp?pys=2014&pye=2014&pu=IEEE&ctype=Journals&oa=1&hc=600&rs=1"
-
-## Export data to XML file first and load it into memory
-discFile1<-"./data1.xml"
-download.file(file1, discFile1, method = "wget",quiet = TRUE)
-dat1_xml<-xmlInternalTreeParse(discFile1)
-rootNode1<-xmlRoot(dat1_xml)
-
-## Retrieve next 600 journals
-file2<-"http://ieeexplore.ieee.org/gateway/ipsSearch.jsp?pys=2014&pye=2014&pu=IEEE&ctype=Journals&oa=1&hc=1000&rs=601"
-
-## Export data to XML file first and load it into memory
-discFile2<-"./data2.xml"
-download.file(file2, discFile2, method = "wget",quiet = TRUE) 
-dat2_xml<-xmlInternalTreeParse(discFile2)
-rootNode2<-xmlRoot(dat2_xml)
-
-## Combining two parts of data into one
-append(rootNode1, rootNode2)
-
-## Retrieve Controlled Index Terms section of journals
-index<-getNodeSet(rootNode1, "//controlledterms//term")
-
-## Count frequencies of keywords and get top 5 keywords
-sortedTable <- sort(table(xmlSApply(index, xmlValue)), TRUE)[1:5]
-
-top<-sort(table(xmlSApply(index, xmlValue)), TRUE)[1]
-rm(file1)
-rm(file2)
-rm(discFile1)
-rm(discFile2)
-rm(dat1_xml)
-rm(dat2_xml)
-
-rm(rootNode1)
-rm(index)
-
+repmis::LoadandCite(PackagesUsed, file = "Package.bib", install=FALSE)
 
 @
 
-The following figure represents the top 5 keywords based on academic journals published in 2014.
-The data is retrieved by IEEE API, and the search query limits academic journals that are open-access, and published in 2014.
+
+\begin{document}
+\lstset{breaklines=true} % break long lines
+<<setup, include=FALSE>>=
+render_listings()
+@
+
+\title {The most popular topics in IEEE publications in 2014}
+\author { Satoko Kora \\ Illinois State University \\ {\href{mailto:skora@ilstu.edu}{skora@ilstu.edu}}}
+\maketitle
+
+\section*{Introduction}
+
+\section*{\textbf{O}btain data}
+
+     In order to retrieve dataset from IEEE API, I used "IEEER" package available on GitHub, developed by kbroman. To run the methods, it is required to install the package with devtools package for the first time.
+
+<<importlib, include=TRUE>>=
+##install.packages("devtools")
+##library(devtools)
+##install_github("ropensci/IEEER")
+
+#load a package to query IEEE Xplore Search Gateway
+library(IEEER, quietly=TRUE)
+@
+
+
+
+<<getData, include=TRUE>>=
+
+# make a data request query
+ie3data <- suppressMessages(IEEE_search(query = list(pu="IEEE", ctype = "Journals", pys = 2014, pye = 2014,oa=1,rs=1), limit=2000))
+
+# extract Controlled Index Terms in academic journal metadata
+terms<-ie3data[,c("controlledterms")]
+@
+
+
+\section*{\textbf{S}crub data}
+
+<<cleanData, include=TRUE>>=
+# split vectors of controlled index terms into an array
+index <- unlist(strsplit(terms, "[|]"))
+
+# Count frequencies of keywords and get top 5 keywords
+sortedTable <- sort(table(index), TRUE)[1:5]
+
+# Make a bar chart based on the data
+df <- data.frame(sortedTable)
+# get No.1 keyword
+top<-df[1,1]
+
+@
+
+\section*{\textbf{E}xplore data}
+
+\section*{\textbf{R}esults}
+
+<<makeTable,results = 'asis',include=TRUE>>=
+library(xtable)
+
+## Printing a table using xtable ##
+caption <- "Top 5 keywords in IEEE publications in 2014"
+c1<-c("1.","2.","3.","4.","5.")
+row.names(df)<-paste(c1, row.names(df), sep=" ")
+colnames(df) <- c("Frequencies")
+print(xtable(df, caption=caption),
+      caption.placement="top", include.rownames=TRUE)
+ 
+@
+
+     The following figure represents the top 5 keywords based on academic journals published in 2014.
+The data is retrieved by IEEE API, and the search query limits academic journals that are open-access, and published by IEEE in 2014.
 The top five keywords are: \Sexpr{top}
 
-<<showGraph, echo=FALSE>>=
+<<showGraph, include=TRUE>>=
+# load a package to make a graph
+library("ggplot2",quietly=TRUE)
+
+
+### Labels for the graph 
+
+##c1<-c("1.","2.","3.","4.","5.")
+##cols<-paste(c1, row.names(df), sep=" ")
+
+g <- ggplot(df, aes(x=row.names(df), y=Frequencies))
+g + xlab("Top 5 Keywords")  + geom_bar(stat="identity") + coord_flip()+ labs(title = "Top 5 popular topics in IEEE publications in 2014")
+
+@
+
+<<showGraph2, include=TRUE>>=
+artilcles <- IEEE_search(query = list(pu="IEEE", ctype = "Journals", pys = 2014, pye = 2014,oa=1,rs=1, cntrlterms="medical image processing"), limit=300)
+artilcles.gr <- artilcles[grep("medical image processing", artilcles$controlledterms),]
+affs<-artilcles.gr$affiliations
+arrAffs <- strsplit(affs, "[,]")
+countries <- c(1:length(arrAffs))
+j <-1
+for(i in 1:length(arrAffs)){
+  countries[i] <- arrAffs[[i]][length(arrAffs[[i]])]
+}
+
+
+## Count frequencies of keywords and get top 5 keywords
+sortedTable <- sort(table(countries), TRUE)[1:5]
 
 ## Make a bar chart based on the data
 df <- data.frame(sortedTable)
 
+
 ### Labels for the graph 
-colnames(df) <- c("Frequencies")
+colnames(df) <- c("Num")
 c1<-c("1.","2.","3.","4.","5.")
 cols<-paste(c1, row.names(df), sep=" ")
 
-g <- ggplot(df, aes(x=cols, y=Frequencies))
-g + xlab("Top 5 Keywords")  + geom_bar(stat="identity")
+g <- ggplot(df, aes(x=cols, y=Num))
+g + xlab("Countries") + ylab("Number of journals") + geom_bar(stat="identity")+ labs(title = "Top 5 countries that produced medical image processing related journals in 2014")
 
 @
-
 
 
 
