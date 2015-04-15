@@ -38,9 +38,16 @@ render_listings()
 
 \section*{Introduction}
 
+IEEE stands for Institute of Electrical and Electronics Engineers.  It is the world’s largest professional association dedicated to advancing technological innovation and excellence for the benefit of humanity.  IEEE has a large variety of contributions to the advancement of technology, known as a vast group of IEEE members around 430,000 people over 160 countries, and as a leader of international standards of emerging technologies, and sponsored more than 1600 conferences.
+
+In terms of publications, IEEE owns a third of the world’s technical literature in electrical engineering, computer science, and electronics. Approximately 180 transactions, journals, and magazines are published annucally. IEEE Xplore Digital Library is an online library containing more than 3.5 million documents from IEEE and IEEE journals, transactions, magazines, letters, conference proceedings, and active IEEE standards.
+
+This paper will explore the world’s most highly cited IEEE journals and reveal the most popular topics in academic journals published by IEEE in 2014.  For this research, IEEE Xplore Search Gateway service is used to retrieve statistical data.  IEEE Xplore Search Gateway is a service providing information about all publications stored in IEEE Xplore Digital Library. Among abundant information about academic journals, I will retrieve controlled index term information which represents a set of keywords and main topics dealt with in each academic journal, and gather data showing how frequent each term is chosen as a topic in academic journals published in 2014.  In this way, I would like to reveal the top 5 popular topics in IEEE journals in 2014.
+
+
 \section*{\textbf{O}btain data}
 
-     In order to retrieve dataset from IEEE API, I used "IEEER" package available on GitHub, developed by kbroman. To run the methods, it is required to install the package with devtools package for the first time.
+In order to retrieve dataset from IEEE Xplore Search Gateway, I used "IEEER" package available on GitHub, developed by kbroman.  The package contains methods to make a query to access to the library based on our criteria and handles memory consumption for users when they retrieve a large amount of data from the enormous library. To run the methods, it is required to install the package with devtools package for the first time.
 
 <<importlib, include=TRUE>>=
 ##install.packages("devtools")
@@ -51,35 +58,72 @@ render_listings()
 library(IEEER, quietly=TRUE)
 @
 
-
+The following is sending a request to retrieve data about open-access academic journals published by IEEE in 2014. 
 
 <<getData, include=TRUE>>=
 
-# make a data request query
-ie3data <- suppressMessages(IEEE_search(query = list(pu="IEEE", ctype = "Journals", pys = 2014, pye = 2014,oa=1,rs=1), limit=2000))
+# make a data request query and get data from IEEE Xplore Search Gateway
+# pu=IEEE: published by IEEE
+# ctype="Journals": academic journals only
+# pys=2014:Start value of publication year
+# pye=2014:End value of publication year
+# oa=1: Open Access journals only
+# rs=1:Sequence number of first record to fetch is 1
+# limit: maximun number of reterieved journals must be 2000
 
-# extract Controlled Index Terms in academic journal metadata
-terms<-ie3data[,c("controlledterms")]
+ie3data <- suppressMessages(IEEE_search(query = list(pu="IEEE", ctype = "Journals", pys = 2014, pye = 2014,oa=1,rs=1), limit=2000))
 @
 
+The total number of corresponding journals is \Sexpr{length(ie3data$rank)}.
 
 \section*{\textbf{S}crub data}
 
-<<cleanData, include=TRUE>>=
-# split vectors of controlled index terms into an array
-index <- unlist(strsplit(terms, "[|]"))
+After obtaining corresponding information, controlled index terms, which represents keyword and topics dealt within journals, are extracted from the data.
+Journal information is retrieved in a data frame form, and firstly the column "controlledterms" is extracted.
 
-# Count frequencies of keywords and get top 5 keywords
-sortedTable <- sort(table(index), TRUE)[1:5]
+<<extract, include=TRUE>>=
 
-# Make a bar chart based on the data
-df <- data.frame(sortedTable)
-# get No.1 keyword
-top<-df[1,1]
+# extract only Controlled Index Terms data in academic journal information
+terms<-ie3data[,c("controlledterms")]
 
 @
 
+Usually an academic journal includes more than one index term, so multiple words are stored as one string sepated with "\|" character.  The following is splitting those strings and making one vector of all retrieved index terms.
+
+<<split, include=TRUE>>=
+# split vectors of controlled index terms into an array
+index <- unlist(strsplit(terms, "[|]"))
+
+@
+
+In the following, a ranking of top 5 popular topics is created.  Table function counts the number of times of each word's appearnce in the vector.  The table is sorted by the frequency in descending order and top 5 terms are set into table. No.1 popular topic term is set to top varaiable.
+
+<<count, include=TRUE>>=
+# Count frequencies of keywords and 
+sortedTable <- sort(table(index), TRUE)
+
+#get top 5 keywords
+top5<-sortedTable[1:5]
+
+# Make a bar chart based on the data
+df <- data.frame(top5)
+# get No.1 keyword
+top<-row.names(df)[[1]]
+
+@
+
+According to the processed data table, No.1 popular topic in 2014 is \Sexpr{top}, and the number of its appearance in journals in 2014 is \Sexpr{df[1,1]} times.
+
 \section*{\textbf{E}xplore data}
+
+In this section, I will focus on metadata of the data that represents the number of appearance of all terms used in the journals, stored in the variable "sortedtable" addressed above.  class shows 
+
+<<explore, include=TRUE>>=
+class(sortedTable)
+str(sortedTable)
+summary(sortedTable)
+@
+
 
 \section*{\textbf{R}esults}
 
