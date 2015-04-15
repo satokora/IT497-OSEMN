@@ -1,0 +1,9 @@
+# IT497-OSEMN
+This repository is for OSEMN project in IT497 in Spring 2015.
+
+The topic of this research paper is to identify the most popular topics in IEEE publications in 2014.
+
+The data retrieval and statistical graphs are created in R,
+and documentation is created with Latex.
+
+The program has access to IEEE Xplore Search Gateway(http://ieeexplore.ieee.org/gateway/) and retrieve information about academic journals published by IEEE.
