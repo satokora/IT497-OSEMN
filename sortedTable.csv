@@ -1,0 +1,2327 @@
+"","x"
+"medical image processing",59
+"learning (artificial intelligence)",42
+"silicon",42
+"elemental semiconductors",40
+"optimisation",40
+"III-V semiconductors",35
+"optical modulation",34
+"nanophotonics",33
+"statistical analysis",33
+"optical waveguides",32
+"microwave photonics",31
+"integrated optics",30
+"photonic crystals",30
+"fibre optic sensors",28
+"optical design techniques",28
+"indium compounds",27
+"optical fibre communication",27
+"feature extraction",26
+"computational complexity",25
+"gallium compounds",25
+"CMOS integrated circuits",24
+"error statistics",23
+"optical losses",23
+"integrated optoelectronics",22
+"iterative methods",22
+"photodetectors",22
+"probability",22
+"wide band gap semiconductors",22
+"OFDM modulation",21
+"biomedical MRI",21
+"diffraction gratings",21
+"optical fabrication",21
+"semiconductor lasers",21
+"Monte Carlo methods",20
+"cloud computing",20
+"diseases",20
+"fibre lasers",20
+"image classification",20
+"image segmentation",20
+"neurophysiology",20
+"remote sensing",20
+"finite element analysis",19
+"image reconstruction",19
+"medical disorders",19
+"silicon-on-insulator",19
+"solar cells",19
+"wavelength division multiplexing",19
+"brain",18
+"cellular radio",18
+"laser cavity resonators",18
+"light emitting diodes",18
+"medical signal processing",18
+"optical communication equipment",18
+"optical filters",18
+"computerised tomography",17
+"geophysical image processing",17
+"wireless channels",17
+"MIMO communication",16
+"aluminium compounds",16
+"biomedical optical imaging",16
+"data acquisition",16
+"energy conservation",16
+"geophysical techniques",16
+"graphene",16
+"optical pumping",16
+"optical tuning",16
+"silicon compounds",16
+"Big Data",15
+"biomechanics",15
+"laser tuning",15
+"matrix algebra",15
+"mobile computing",15
+"reflectivity",15
+"MOSFET",14
+"biomedical equipment",14
+"laser mode locking",14
+"optical receivers",14
+"regression analysis",14
+"relay networks (telecommunication)",14
+"Bragg gratings",13
+"Internet",13
+"Markov processes",13
+"cellular biophysics",13
+"delays",13
+"face recognition",13
+"finite difference time-domain analysis",13
+"optical polymers",13
+"optical pulse generation",13
+"pattern classification",13
+"pattern clustering",13
+"remote sensing by radar",13
+"telecommunication traffic",13
+"wireless sensor networks",13
+"Gaussian processes",12
+"calibration",12
+"holey fibres",12
+"optical fibre polarisation",12
+"optical resonators",12
+"optical transmitters",12
+"signal processing",12
+"telecommunication power management",12
+"antenna arrays",11
+"cancer",11
+"graph theory",11
+"image resolution",11
+"light interference",11
+"light polarisation",11
+"mean square error methods",11
+"minimisation",11
+"multiwave mixing",11
+"optical switches",11
+"patient diagnosis",11
+"quadrature amplitude modulation",11
+"radiofrequency interference",11
+"refractive index",11
+"social networking (online)",11
+"CMOS image sensors",10
+"bioelectric potentials",10
+"cooperative communication",10
+"evolutionary computation",10
+"laser beams",10
+"micro-optics",10
+"microsensors",10
+"molecular biophysics",10
+"nonlinear optics",10
+"numerical analysis",10
+"object detection",10
+"optical fibre dispersion",10
+"optical fibre losses",10
+"optical links",10
+"patient treatment",10
+"permittivity",10
+"plasmonics",10
+"radio receivers",10
+"resource allocation",10
+"synthetic aperture radar",10
+"time series",10
+"Internet of Things",9
+"bioelectric phenomena",9
+"channel estimation",9
+"data analysis",9
+"feedback",9
+"infrared imaging",9
+"infrared spectra",9
+"mobile robots",9
+"nanofabrication",9
+"nanostructured materials",9
+"neural nets",9
+"optical communication",9
+"optical couplers",9
+"optical fibre couplers",9
+"optical fibre networks",9
+"optical fibres",9
+"oscillators",9
+"passive optical networks",9
+"patient monitoring",9
+"phase modulation",9
+"photodiodes",9
+"principal component analysis",9
+"quadrature phase shift keying",9
+"quality of service",9
+"real-time systems",9
+"reviews",9
+"semiconductor thin films",9
+"signal classification",9
+"stochastic processes",9
+"support vector machines",9
+"surface emitting lasers",9
+"surface plasmons",9
+"Bayes methods",8
+"Mach-Zehnder interferometers",8
+"atmospheric techniques",8
+"biological tissues",8
+"biomedical measurement",8
+"cameras",8
+"cardiology",8
+"cryptography",8
+"data mining",8
+"data visualisation",8
+"distributed power generation",8
+"fading channels",8
+"gallium arsenide",8
+"graphics processing units",8
+"high-speed optical techniques",8
+"hyperspectral imaging",8
+"interference suppression",8
+"lenses",8
+"muscle",8
+"nanoparticles",8
+"optical beam splitters",8
+"optical fibre fabrication",8
+"optical sensors",8
+"polaritons",8
+"power engineering computing",8
+"power generation control",8
+"power grids",8
+"radio-over-fibre",8
+"scheduling",8
+"semiconductor device models",8
+"signal detection",8
+"smart phones",8
+"stability",8
+"telecommunication channels",8
+"telecommunication network routing",8
+"temperature measurement",8
+"tumours",8
+"ytterbium",8
+"Long Term Evolution",7
+"adaptive control",7
+"approximation theory",7
+"array signal processing",7
+"band-pass filters",7
+"biology computing",7
+"blood",7
+"blood vessels",7
+"channel allocation",7
+"cognitive radio",7
+"control system synthesis",7
+"data structures",7
+"electromyography",7
+"energy gap",7
+"field effect transistors",7
+"filtering theory",7
+"genetics",7
+"gold",7
+"image representation",7
+"light interferometry",7
+"light transmission",7
+"linear programming",7
+"lithium compounds",7
+"medical control systems",7
+"micromechanical resonators",7
+"mobile radio",7
+"nanowires",7
+"optical crosstalk",7
+"optical fibre amplifiers",7
+"optical information processing",7
+"optical materials",7
+"optical saturable absorption",7
+"optimal control",7
+"phantoms",7
+"phase noise",7
+"polynomials",7
+"position control",7
+"precoding",7
+"proteins",7
+"radio networks",7
+"radio spectrum management",7
+"security of data",7
+"surface plasmon resonance",7
+"telecommunication network topology",7
+"telecommunication security",7
+"time-domain analysis",7
+"vegetation",7
+"vegetation mapping",7
+"DC-DC power convertors",6
+"Raman spectra",6
+"amorphous semiconductors",6
+"biomedical electrodes",6
+"biomedical ultrasonics",6
+"bone",6
+"chemical sensors",6
+"cryptographic protocols",6
+"data communication",6
+"decision making",6
+"distributed feedback lasers",6
+"eigenvalues and eigenfunctions",6
+"failure analysis",6
+"field programmable gate arrays",6
+"fluorescence",6
+"genetic algorithms",6
+"high electron mobility transistors",6
+"image registration",6
+"image sequences",6
+"integer programming",6
+"invertors",6
+"laser feedback",6
+"least mean squares methods",6
+"load flow",6
+"low-pass filters",6
+"low-power electronics",6
+"medical signal detection",6
+"metallic thin films",6
+"multiprocessing systems",6
+"nanosensors",6
+"nonlinear control systems",6
+"optical fibre cladding",6
+"optical fibre filters",6
+"optical harmonic generation",6
+"optical polarisers",6
+"optical tomography",6
+"parallel processing",6
+"photoluminescence",6
+"pneumodynamics",6
+"power control",6
+"prosthetics",6
+"protocols",6
+"radar imaging",6
+"radio access networks",6
+"radio transmitters",6
+"reliability",6
+"smart power grids",6
+"stimulated Brillouin scattering",6
+"strain sensors",6
+"surgery",6
+"synchronisation",6
+"telecommunication computing",6
+"telecommunication network reliability",6
+"temperature sensors",6
+"time-frequency analysis",6
+"transport protocols",6
+"trees (mathematics)",6
+"visible spectra",6
+"wireless LAN",6
+"yttrium compounds",6
+"4G mobile communication",5
+"Fabry-Perot interferometers",5
+"Fourier transform optics",5
+"Fourier transforms",5
+"Gaussian distribution",5
+"II-VI semiconductors",5
+"IP networks",5
+"Kalman filters",5
+"VLSI",5
+"amplitude shift keying",5
+"antenna radiation patterns",5
+"audio signal processing",5
+"biochemistry",5
+"biomedical electronics",5
+"birefringence",5
+"capacitors",5
+"channel capacity",5
+"control engineering computing",5
+"copper compounds",5
+"current density",5
+"decoding",5
+"dynamic programming",5
+"electric current control",5
+"electric impedance",5
+"electro-optical modulation",5
+"electromagnetic wave propagation",5
+"electron beam lithography",5
+"etching",5
+"eye",5
+"feature selection",5
+"gait analysis",5
+"haemodynamics",5
+"handicapped aids",5
+"image coding",5
+"image fusion",5
+"image matching",5
+"image sensors",5
+"injuries",5
+"intensity modulation",5
+"inverse problems",5
+"laser modes",5
+"leakage currents",5
+"least squares approximations",5
+"light propagation",5
+"medical computing",5
+"microcavities",5
+"microprocessor chips",5
+"mirrors",5
+"multicast communication",5
+"multipath channels",5
+"nanoelectronics",5
+"negative bias temperature instability",5
+"neodymium",5
+"observers",5
+"optical noise",5
+"optical phase matching",5
+"optical radar",5
+"optical variables measurement",5
+"patient rehabilitation",5
+"pattern recognition",5
+"photoconductivity",5
+"positron emission tomography",5
+"power convertors",5
+"queueing theory",5
+"radio links",5
+"random processes",5
+"ray tracing",5
+"research and development",5
+"search problems",5
+"semiconductor growth",5
+"semiconductor optical amplifiers",5
+"sensor arrays",5
+"sensors",5
+"set theory",5
+"silver",5
+"singular value decomposition",5
+"solid lasers",5
+"stators",5
+"strain measurement",5
+"ternary semiconductors",5
+"thin film devices",5
+"time division multiplexing",5
+"torque",5
+"transmitting antennas",5
+"visual databases",5
+"voltage control",5
+"wheelchairs",5
+"Brillouin spectra",4
+"CMOS digital integrated circuits",4
+"DNA",4
+"Ge-Si alloys",4
+"Global Positioning System",4
+"Q-switching",4
+"S-parameters",4
+"access protocols",4
+"ageing",4
+"aluminium",4
+"amplifiers",4
+"analogue circuits",4
+"angular momentum",4
+"antennas",4
+"avalanche photodiodes",4
+"belief networks",4
+"bioinformatics",4
+"biomedical telemetry",4
+"biosensors",4
+"carbon nanotubes",4
+"catheters",4
+"closed loop systems",4
+"compressed sensing",4
+"computer games",4
+"computer vision",4
+"condition monitoring",4
+"copper",4
+"data handling",4
+"deformation",4
+"diagnostic radiography",4
+"dielectric materials",4
+"digital-analogue conversion",4
+"distortion",4
+"diversity reception",4
+"dosimetry",4
+"drug delivery systems",4
+"electric fields",4
+"electric impedance imaging",4
+"electric vehicles",4
+"electrical conductivity",4
+"electro-optical effects",4
+"electroencephalography",4
+"electromagnetic wave scattering",4
+"encoding",4
+"energy harvesting",4
+"erbium",4
+"expectation-maximisation algorithm",4
+"fault diagnosis",4
+"focal planes",4
+"force measurement",4
+"frequency division multiple access",4
+"fuzzy set theory",4
+"geomorphology",4
+"germanium",4
+"gradient methods",4
+"greedy algorithms",4
+"haptic interfaces",4
+"harmonic distortion",4
+"health care",4
+"human computer interaction",4
+"hybrid electric vehicles",4
+"image denoising",4
+"image enhancement",4
+"image motion analysis",4
+"image processing",4
+"image recognition",4
+"inference mechanisms",4
+"integrated circuit design",4
+"laser mirrors",4
+"laser noise",4
+"laser stability",4
+"light coherence",4
+"linearisation techniques",4
+"logic design",4
+"low noise amplifiers",4
+"lung",4
+"magnetic sensors",4
+"matrix decomposition",4
+"maximum likelihood estimation",4
+"medical robotics",4
+"microwave generation",4
+"motion control",4
+"multiplexing",4
+"music",4
+"nanomedicine",4
+"natural language processing",4
+"network analysers",4
+"network coding",4
+"next generation networks",4
+"optical arrays",4
+"optical delay lines",4
+"optical fibre testing",4
+"optical frequency conversion",4
+"optical interconnections",4
+"optical metamaterials",4
+"optical rotation",4
+"optical transceivers",4
+"organic compounds",4
+"parameter estimation",4
+"particle filtering (numerical methods)",4
+"passivation",4
+"phase shift keying",4
+"phosphors",4
+"physiological models",4
+"piezoelectric actuators",4
+"plasmons",4
+"polymers",4
+"power aware computing",4
+"power consumption",4
+"power transmission lines",4
+"predictive control",4
+"query processing",4
+"radar interferometry",4
+"radar polarimetry",4
+"radio transceivers",4
+"readout electronics",4
+"recommender systems",4
+"rectangular waveguides",4
+"reflectometry",4
+"sapphire",4
+"secondary cells",4
+"semiconductor device breakdown",4
+"semiconductor device reliability",4
+"sensitivity analysis",4
+"sensor fusion",4
+"software architecture",4
+"space division multiplexing",4
+"telecommunication congestion control",4
+"telemedicine",4
+"terahertz wave detectors",4
+"terrain mapping",4
+"thin films",4
+"three-dimensional integrated circuits",4
+"three-term control",4
+"timing jitter",4
+"torque control",4
+"ultra wideband radar",4
+"uncertain systems",4
+"velocity measurement",4
+"virtualisation",4
+"wavelet transforms",4
+"wind power plants",4
+"zero current switching",4
+"zero voltage switching",4
+"1/f noise",3
+"5G mobile communication",3
+"CW radar",3
+"FM radar",3
+"Gaussian noise",3
+"Golay codes",3
+"Green's function methods",3
+"HVDC power convertors",3
+"Laplace equations",3
+"Maxwell equations",3
+"Nakagami channels",3
+"PI control",3
+"Q-factor",3
+"absorption coefficients",3
+"accelerometers",3
+"adaptive systems",3
+"alumina",3
+"analogue-digital conversion",3
+"annealing",3
+"antireflection coatings",3
+"arrayed waveguide gratings",3
+"atmospheric optics",3
+"atmospheric turbulence",3
+"authorisation",3
+"bending",3
+"bio-optics",3
+"body area networks",3
+"body sensor networks",3
+"cache storage",3
+"carbon compounds",3
+"cardiovascular system",3
+"carrier density",3
+"cerium",3
+"channel bank filters",3
+"clouds",3
+"code division multiple access",3
+"cognition",3
+"communication complexity",3
+"compensation",3
+"computational electromagnetics",3
+"computational fluid dynamics",3
+"computer centres",3
+"conduction bands",3
+"correlation methods",3
+"crosstalk",3
+"data compression",3
+"data privacy",3
+"demultiplexing",3
+"digital subscriber lines",3
+"diodes",3
+"discrete Fourier transforms",3
+"discrete cosine transforms",3
+"discrete time systems",3
+"displacement measurement",3
+"driver circuits",3
+"drugs",3
+"elasticity",3
+"electric current measurement",3
+"electrical contacts",3
+"electro-optical devices",3
+"electrocardiography",3
+"electrodes",3
+"electromagnetic interference",3
+"electron-hole recombination",3
+"electronics packaging",3
+"embedded systems",3
+"energy consumption",3
+"environmental monitoring (geophysics)",3
+"equalisers",3
+"equivalent circuits",3
+"error correction codes",3
+"feedforward",3
+"femtocellular radio",3
+"fingerprint identification",3
+"flip-flops",3
+"frequency division multiplexing",3
+"geographic information systems",3
+"geometry",3
+"geophysical signal processing",3
+"hafnium compounds",3
+"heterodyne detection",3
+"hidden Markov models",3
+"humanoid robots",3
+"image colour analysis",3
+"image sampling",3
+"image texture",3
+"indoor radio",3
+"integrated circuit noise",3
+"integrated circuits",3
+"interface states",3
+"interpolation",3
+"invasive software",3
+"laser applications in medicine",3
+"laser materials processing",3
+"light absorption",3
+"light reflection",3
+"light scattering",3
+"lighting",3
+"linear matrix inequalities",3
+"logic gates",3
+"machine control",3
+"magnetic fields",3
+"maintenance engineering",3
+"manipulator kinematics",3
+"masks",3
+"measurement by laser beam",3
+"measurement errors",3
+"medical diagnostic computing",3
+"membranes",3
+"meteorological radar",3
+"method of moments",3
+"microfabrication",3
+"micromachining",3
+"microorganisms",3
+"microstrip antenna arrays",3
+"minerals",3
+"minimax techniques",3
+"mixture models",3
+"mobile communication",3
+"mobile handsets",3
+"modulation",3
+"moire fringes",3
+"motion estimation",3
+"multi-agent systems",3
+"multilayer perceptrons",3
+"network servers",3
+"network theory (graphs)",3
+"nuclear electronics",3
+"open systems",3
+"optical Kerr effect",3
+"optical circulators",3
+"optical collimators",3
+"optical correlation",3
+"optical focusing",3
+"optical microscopy",3
+"optical multilayers",3
+"optical projectors",3
+"optical solitons",3
+"optical transfer function",3
+"optical vortices",3
+"packet radio networks",3
+"parallel programming",3
+"parity check codes",3
+"particle swarm optimisation",3
+"path planning",3
+"peer-to-peer computing",3
+"performance evaluation",3
+"photonic band gap",3
+"piezoelectric transducers",3
+"plasma CVD",3
+"plasma density",3
+"plasma diagnostics",3
+"plasma jets",3
+"platinum",3
+"polymer films",3
+"power electronics",3
+"power supply quality",3
+"power system control",3
+"power system stability",3
+"power transmission (mechanical)",3
+"printed circuits",3
+"production engineering computing",3
+"program testing",3
+"quality control",3
+"quantum computing",3
+"quantum dot lasers",3
+"quantum optics",3
+"quantum well devices",3
+"quantum well lasers",3
+"radar antennas",3
+"radar clutter",3
+"radiation pressure",3
+"radiocommunication",3
+"radiowave propagation",3
+"random sequences",3
+"remote sensing by laser beam",3
+"resonators",3
+"reverse engineering",3
+"rotors",3
+"routing protocols",3
+"sampling methods",3
+"scanning electron microscopy",3
+"semiconductor counters",3
+"semiconductor laser arrays",3
+"semiconductor quantum dots",3
+"semiconductor quantum wells",3
+"sensor placement",3
+"short-circuit currents",3
+"signal reconstruction",3
+"single photon emission computed tomography",3
+"skin",3
+"software radio",3
+"sorting",3
+"spectral analysis",3
+"sputter deposition",3
+"stereo image processing",3
+"superradiance",3
+"switching convertors",3
+"system-on-chip",3
+"thin film transistors",3
+"thulium",3
+"tolerance analysis",3
+"training",3
+"transceivers",3
+"transformers",3
+"transforms",3
+"transparency",3
+"tree data structures",3
+"trusted computing",3
+"tunnel transistors",3
+"turbo codes",3
+"ultra wideband antennas",3
+"ultra wideband communication",3
+"ultraviolet spectra",3
+"unsupervised learning",3
+"variable speed drives",3
+"variable structure systems",3
+"vectors",3
+"vibration measurement",3
+"video signal processing",3
+"virtual machines",3
+"vision",3
+"zinc compounds",3
+"3G mobile communication",2
+"Auger effect",2
+"CCD image sensors",2
+"Fabry-Perot resonators",2
+"Faraday effect",2
+"Fourier series",2
+"Hamming codes",2
+"Linux",2
+"MIM devices",2
+"PWM invertors",2
+"RC circuits",2
+"Raman lasers",2
+"Rayleigh channels",2
+"SRAM chips",2
+"Sagnac interferometers",2
+"Schottky diodes",2
+"Schrodinger equation",2
+"UHF filters",2
+"UHF integrated circuits",2
+"UHF power amplifiers",2
+"Web services",2
+"X-ray diffraction",2
+"X-ray fluorescence analysis",2
+"X-ray optics",2
+"X-ray tubes",2
+"acoustic signal processing",2
+"acousto-optical devices",2
+"adaptive filters",2
+"adders",2
+"adjacent channel interference",2
+"air gaps",2
+"airborne radar",2
+"aircraft",2
+"amplify and forward communication",2
+"amplitude modulation",2
+"angular velocity control",2
+"antenna phased arrays",2
+"arcs (electric)",2
+"artificial organs",2
+"atmospheric radiation",2
+"atomic layer deposition",2
+"augmented reality",2
+"automobiles",2
+"autonomous aerial vehicles",2
+"avalanche diodes",2
+"backscatter",2
+"baluns",2
+"binary decision diagrams",2
+"bioMEMS",2
+"biodiffusion",2
+"biological organs",2
+"biomedical transducers",2
+"biometrics (access control)",2
+"biomimetics",2
+"bipolar transistors",2
+"bismuth",2
+"block codes",2
+"blood flow measurement",2
+"bolometers",2
+"brain-computer interfaces",2
+"broadband antennas",2
+"buckling",2
+"buildings (structures)",2
+"cadmium compounds",2
+"capacitance",2
+"capacitive sensors",2
+"carrier mobility",2
+"channel coding",2
+"chirp modulation",2
+"chromium",2
+"client-server systems",2
+"clutches",2
+"coatings",2
+"cochannel interference",2
+"code division multiplexing",2
+"collaborative filtering",2
+"colour",2
+"combinatorial mathematics",2
+"comparators (circuits)",2
+"computational geometry",2
+"computer network reliability",2
+"computer network security",2
+"convergence",2
+"convex programming",2
+"conveyors",2
+"convolution",2
+"convolutional codes",2
+"cooling",2
+"coplanar waveguides",2
+"cost-benefit analysis",2
+"covariance matrices",2
+"crystallisation",2
+"current distribution",2
+"damping",2
+"dark conductivity",2
+"data protection",2
+"decentralised control",2
+"decision feedback equalisers",2
+"decision support systems",2
+"decision trees",2
+"decode and forward communication",2
+"differential amplifiers",2
+"diffractive optical elements",2
+"diffusion",2
+"digital elevation models",2
+"digital filters",2
+"digital signatures",2
+"dipole antennas",2
+"direct energy conversion",2
+"distributed algorithms",2
+"distributed sensors",2
+"distribution networks",2
+"durability",2
+"dyes",2
+"ear",2
+"earthquakes",2
+"echocardiography",2
+"edge detection",2
+"effective mass",2
+"elastic constants",2
+"electrical engineering computing",2
+"electroluminescence",2
+"electromagnetic field theory",2
+"electromagnetic shielding",2
+"electromagnetic wave polarisation",2
+"electronic design automation",2
+"emergency services",2
+"emotion recognition",2
+"endoscopes",2
+"energy management systems",2
+"entropy",2
+"environmental economics",2
+"epitaxial growth",2
+"extinction coefficients",2
+"fasteners",2
+"flexible manufacturing systems",2
+"fluorescence spectroscopy",2
+"force control",2
+"force sensors",2
+"forestry",2
+"formal specification",2
+"formal verification",2
+"frequency control",2
+"frequency measurement",2
+"fullerene devices",2
+"fuzzy control",2
+"fuzzy logic",2
+"fuzzy reasoning",2
+"game theory",2
+"genomics",2
+"geriatrics",2
+"germanium compounds",2
+"gesture recognition",2
+"glaciology",2
+"ground penetrating radar",2
+"hearing",2
+"heat transfer",2
+"heating",2
+"high-pass filters",2
+"high-temperature superconductors",2
+"hole mobility",2
+"holography",2
+"hospitals",2
+"hot carriers",2
+"human factors",2
+"human-robot interaction",2
+"hydrogen",2
+"image restoration",2
+"independent component analysis",2
+"inductive power transmission",2
+"inductors",2
+"industrial manipulators",2
+"information retrieval",2
+"information services",2
+"information theory",2
+"infrared spectroscopy",2
+"integrated circuit interconnections",2
+"integrated circuit layout",2
+"integrated circuit modelling",2
+"integrated circuit testing",2
+"intelligent transportation systems",2
+"internal stresses",2
+"internetworking",2
+"intersymbol interference",2
+"inverse transforms",2
+"ionisation",2
+"iron compounds",2
+"job shop scheduling",2
+"k.p calculations",2
+"kidney",2
+"lab-on-a-chip",2
+"land use",2
+"landmine detection",2
+"laptop computers",2
+"laser beam effects",2
+"light interferometers",2
+"linear codes",2
+"liquid crystals",2
+"load shedding",2
+"log normal distribution",2
+"logic circuits",2
+"machine insulation",2
+"magnetic field measurement",2
+"magnetic fluids",2
+"magnetic flux",2
+"magnetic permeability",2
+"magnetisation",2
+"magneto-optical effects",2
+"mammography",2
+"manipulator dynamics",2
+"manipulators",2
+"marine engineering",2
+"mass spectroscopy",2
+"mathematical analysis",2
+"mathematics computing",2
+"maximum likelihood detection",2
+"measurement uncertainty",2
+"mechanical contact",2
+"mechanoception",2
+"melting",2
+"mesh generation",2
+"message passing",2
+"metallisation",2
+"metamaterial antennas",2
+"micro-optomechanical devices",2
+"microcontrollers",2
+"micromechanical devices",2
+"micromirrors",2
+"microstrip antennas",2
+"microstrip lines",2
+"microwave antenna arrays",2
+"microwave antennas",2
+"microwave imaging",2
+"microwave measurement",2
+"millimetre wave antenna arrays",2
+"millimetre wave diodes",2
+"millimetre wave measurement",2
+"millimetre wave mixers",2
+"millimetre wave radar",2
+"minority carriers",2
+"mobility management (mobile radio)",2
+"multi-access systems",2
+"multilayers",2
+"multimedia computing",2
+"multiuser detection",2
+"nanobiotechnology",2
+"nanomagnetics",2
+"network synthesis",2
+"neural net architecture",2
+"nickel",2
+"nitrogen compounds",2
+"nondestructive testing",2
+"nonlinear filters",2
+"notch filters",2
+"object tracking",2
+"obstetrics",2
+"operational amplifiers",2
+"optical chaos",2
+"optical directional couplers",2
+"optical distortion",2
+"optical feedback",2
+"optical films",2
+"optical lattices",2
+"optical logic",2
+"optical phase locked loops",2
+"optical phase shifters",2
+"optical planar waveguides",2
+"optical scanners",2
+"optical waveguide components",2
+"optical wavelength conversion",2
+"organic light emitting diodes",2
+"organic semiconductors",2
+"oscillations",2
+"oxidation",2
+"oximetry",2
+"p-i-n diodes",2
+"p-i-n photodiodes",2
+"p-n junctions",2
+"parallel architectures",2
+"permanent magnets",2
+"permeability",2
+"phase measurement",2
+"phosphorus compounds",2
+"photoemission",2
+"photolithography",2
+"photomultipliers",2
+"photoresists",2
+"photovoltaic power systems",2
+"picocellular radio",2
+"piecewise linear techniques",2
+"piezoelectricity",2
+"plasma applications",2
+"point contacts",2
+"polymer blends",2
+"position measurement",2
+"power amplifiers",2
+"power conversion",2
+"power distribution control",2
+"power system faults",2
+"power system interconnection",2
+"power system measurement",2
+"power system security",2
+"power transformer insulation",2
+"power transformers",2
+"power transmission faults",2
+"processor scheduling",2
+"product development",2
+"program debugging",2
+"propulsion",2
+"proteomics",2
+"prototypes",2
+"psychology",2
+"public domain software",2
+"pulse generators",2
+"pulse shaping",2
+"quantisation (signal)",2
+"quantum communication",2
+"quantum dots",2
+"radar receivers",2
+"radar transmitters",2
+"radial basis function networks",2
+"radiation hardening (electronics)",2
+"radiation therapy",2
+"radiofrequency identification",2
+"radiofrequency power amplifiers",2
+"radiometers",2
+"radiotelemetry",2
+"random-access storage",2
+"receiving antennas",2
+"rectification",2
+"rectifiers",2
+"refractive index measurement",2
+"reluctance motors",2
+"resistors",2
+"resonator filters",2
+"reverberation chambers",2
+"rib waveguides",2
+"ridge waveguides",2
+"ring lasers",2
+"risk management",2
+"road safety",2
+"robust control",2
+"rocks",2
+"satellite navigation",2
+"scintillation counters",2
+"self-assembly",2
+"semiconductor device measurement",2
+"semiconductor epitaxial layers",2
+"semiconductor heterojunctions",2
+"service-oriented architecture",2
+"shafts",2
+"signal denoising",2
+"signal sampling",2
+"silicon radiation detectors",2
+"sleep",2
+"smart meters",2
+"snow",2
+"social sciences computing",2
+"software libraries",2
+"software packages",2
+"soil",2
+"solar cell arrays",2
+"source separation",2
+"spatial light modulators",2
+"speaker recognition",2
+"spectral line shift",2
+"speech intelligibility",2
+"springs (mechanical)",2
+"standardisation",2
+"state-space methods",2
+"statistical distributions",2
+"stents",2
+"stimulated Raman scattering",2
+"stochastic programming",2
+"submillimetre wave mixers",2
+"sugar",2
+"superconducting photodetectors",2
+"surface conductivity",2
+"surface texture",2
+"synchronous generators",2
+"table lookup",2
+"tantalum compounds",2
+"target tracking",2
+"task analysis",2
+"telecommunication network management",2
+"tensors",2
+"thermal conductivity",2
+"thermo-optical devices",2
+"three-dimensional printing",2
+"titanium compounds",2
+"topography (Earth)",2
+"topological insulators",2
+"traffic engineering computing",2
+"transducers",2
+"transfer function matrices",2
+"transfer functions",2
+"transmission line theory",2
+"transmission networks",2
+"ubiquitous computing",2
+"ultra wideband technology",2
+"ultrasonic imaging",2
+"ultrasonic transducers",2
+"ultraviolet lithography",2
+"vacancies (crystal)",2
+"vacuum deposition",2
+"varactors",2
+"variational techniques",2
+"vehicles",2
+"vehicular ad hoc networks",2
+"virtual reality",2
+"volcanology",2
+"wave functions",2
+"white noise",2
+"wind power",2
+"zirconium compounds",2
+"AC generators",1
+"AC-DC power convertors",1
+"AWGN",1
+"AWGN channels",1
+"Android (operating system)",1
+"Barkhausen effect",1
+"BiCMOS integrated circuits",1
+"Boltzmann equation",1
+"Boltzmann machines",1
+"Boolean functions",1
+"CAD",1
+"CMOS analogue integrated circuits",1
+"CMOS logic circuits",1
+"CMOS memory circuits",1
+"Compton effect",1
+"Curie temperature",1
+"DC generators",1
+"DC motor drives",1
+"DC-AC power convertors",1
+"DP industry",1
+"DP management",1
+"DiffServ networks",1
+"Doppler effect",1
+"Doppler measurement",1
+"Doppler radar",1
+"EHT calculations",1
+"EXAFS",1
+"Fermi level",1
+"Fibonacci sequences",1
+"Fourier transform spectra",1
+"Galerkin method",1
+"Gaussian channels",1
+"Gunn diodes",1
+"Hadamard transforms",1
+"Hall effect",1
+"Hilbert spaces",1
+"Hopfield neural nets",1
+"Huffman codes",1
+"IEC standards",1
+"IIR filters",1
+"IPTV",1
+"Internet telephony",1
+"LED displays",1
+"Langmuir probes",1
+"Lyapunov methods",1
+"MIMO radar",1
+"MIMO systems",1
+"MIS structures",1
+"MMIC amplifiers",1
+"MMIC power amplifiers",1
+"MOSFET circuits",1
+"MRAM devices",1
+"Michelson interferometers",1
+"Mie scattering",1
+"Newton-Raphson method",1
+"Nyquist diagrams",1
+"OBIC",1
+"PD control",1
+"PWM power convertors",1
+"Pareto optimisation",1
+"Poisson equation",1
+"RNA",1
+"Radon transforms",1
+"Random access memory",1
+"Rayleigh scattering",1
+"Reed-Solomon codes",1
+"Ring oscillators",1
+"SQUIDs",1
+"Schottky barriers",1
+"Schottky gate field effect transistors",1
+"Seebeck effect",1
+"Talbot effect",1
+"Tokamak devices",1
+"Tutorials",1
+"UHF devices",1
+"UHF oscillators",1
+"ULSI",1
+"Web sites",1
+"Weibull distribution",1
+"Wiener filters",1
+"X-ray apparatus",1
+"X-ray chemical analysis",1
+"X-ray detection",1
+"X-ray imaging",1
+"X-ray microscopy",1
+"X-ray spectra",1
+"X-ray spectroscopy",1
+"XML",1
+"Zigbee",1
+"aberrations",1
+"acoustic distortion",1
+"acoustic generators",1
+"acoustic imaging",1
+"acoustic resonator filters",1
+"acoustic tomography",1
+"acoustic transducer arrays",1
+"acoustic transducers",1
+"acoustic wave scattering",1
+"acoustic waves",1
+"acoustics",1
+"acousto-optical effects",1
+"acousto-optical modulation",1
+"actuators",1
+"ad hoc networks",1
+"adaptive optics",1
+"adaptive radar",1
+"adaptive signal detection",1
+"adaptive signal processing",1
+"adhesion",1
+"adsorption",1
+"advertising",1
+"aerosols",1
+"aerospace control",1
+"aerospace engineering",1
+"age issues",1
+"agricultural machinery",1
+"agriculture",1
+"air insulation",1
+"aircraft power systems",1
+"airglow",1
+"algebra",1
+"all-pass filters",1
+"ammonia",1
+"amplitude estimation",1
+"analytic hierarchy process",1
+"anechoic chambers (acoustic)",1
+"ant colony optimisation",1
+"antenna feeds",1
+"anthropometry",1
+"aperture antennas",1
+"application program interfaces",1
+"argon",1
+"artificial limbs",1
+"artificial satellites",1
+"astronomical instruments",1
+"astronomical techniques",1
+"astrophysical plasma",1
+"asynchronous circuits",1
+"asynchronous generators",1
+"atmospheric humidity",1
+"atmospheric measuring apparatus",1
+"atmospheric precipitation",1
+"atmospheric temperature",1
+"atomic force microscopy",1
+"audio-frequency amplifiers",1
+"audio-visual systems",1
+"aurora",1
+"automatic programming",1
+"automatic repeat request",1
+"automatic test pattern generation",1
+"automobile manufacture",1
+"automotive electronics",1
+"autonomous underwater vehicles",1
+"autoregressive moving average processes",1
+"backpropagation",1
+"ball screws",1
+"ballistics",1
+"band structure",1
+"band-stop filters",1
+"bandwidth allocation",1
+"barium compounds",1
+"batch processing (industrial)",1
+"battery management systems",1
+"battery powered vehicles",1
+"battery storage plants",1
+"beam steering",1
+"benchmark testing",1
+"bioacoustics",1
+"biocomputing",1
+"biocybernetics",1
+"biological fluid dynamics",1
+"biological techniques",1
+"biomedical communication",1
+"biomedical engineering",1
+"biomedical imaging",1
+"biomembrane transport",1
+"bipolar MIMIC",1
+"bipolar memory circuits",1
+"bismuth compounds",1
+"blades",1
+"blind source separation",1
+"blood pressure measurement",1
+"boron compounds",1
+"bound states",1
+"boundary-value problems",1
+"bow-tie antennas",1
+"brain models",1
+"braking",1
+"bridges (structures)",1
+"brightness",1
+"brushless DC motors",1
+"buffer storage",1
+"building integrated photovoltaics",1
+"building management systems",1
+"buoyancy",1
+"business data processing",1
+"calcium",1
+"calcium compounds",1
+"calculus",1
+"cantilevers",1
+"capillarity",1
+"carbon capture and storage",1
+"carrier lifetime",1
+"cartography",1
+"casting",1
+"causality",1
+"cellular transport",1
+"cements (building materials)",1
+"ceramic capacitors",1
+"ceramics",1
+"channel spacing",1
+"chaos",1
+"character recognition",1
+"charge exchange",1
+"chemistry computing",1
+"chirality",1
+"circuit analysis computing",1
+"circuit breakers",1
+"circuit complexity",1
+"circuit tuning",1
+"claddings",1
+"cleaning",1
+"climatology",1
+"clothing",1
+"coal gasification",1
+"coaxial cables",1
+"coaxial waveguides",1
+"cochlear implants",1
+"cognitive systems",1
+"coils",1
+"collimators",1
+"collision avoidance",1
+"colour vision",1
+"comb filters",1
+"combustion",1
+"complex networks",1
+"composite materials",1
+"compressive strength",1
+"computer animation",1
+"computer architecture",1
+"computer based training",1
+"computer bootstrapping",1
+"computer graphics",1
+"computer network performance evaluation",1
+"computer networks",1
+"computer-generated holography",1
+"computerised monitoring",1
+"concatenated codes",1
+"concave programming",1
+"conducting polymers",1
+"configuration management",1
+"contact resistance",1
+"containers",1
+"content-addressable storage",1
+"content-based retrieval",1
+"control charts",1
+"control nonlinearities",1
+"controllability",1
+"controller area networks",1
+"cores",1
+"corona",1
+"corrosion",1
+"cost accounting",1
+"coupled mode analysis",1
+"critical currents",1
+"crops",1
+"cryogenics",1
+"crystal growth",1
+"crystal microstructure",1
+"curing",1
+"current limiters",1
+"curve fitting",1
+"dangling bonds",1
+"data assimilation",1
+"data loggers",1
+"database theory",1
+"decision theory",1
+"deconvolution",1
+"defect states",1
+"defence industry",1
+"delay circuits",1
+"delay estimation",1
+"delay filters",1
+"delay lines",1
+"demand side management",1
+"demodulation",1
+"demography",1
+"demultiplexing equipment",1
+"design",1
+"design engineering",1
+"design for testability",1
+"dexterous manipulators",1
+"diamond",1
+"dielectric losses",1
+"dielectric properties",1
+"dielectric resonator antennas",1
+"dielectric thin films",1
+"diesel engines",1
+"differential phase shift keying",1
+"differential scanning calorimetry",1
+"digital arithmetic",1
+"digital circuits",1
+"digital forensics",1
+"digital libraries",1
+"digital phase locked loops",1
+"digital simulation",1
+"digital video broadcasting",1
+"dipole antenna arrays",1
+"direction-of-arrival estimation",1
+"discharges (electric)",1
+"discrete event simulation",1
+"discrete event systems",1
+"discrete transforms",1
+"dispersive media",1
+"dissociation",1
+"distance measurement",1
+"distributed Bragg reflector lasers",1
+"distributed Bragg reflectors",1
+"distributed amplifiers",1
+"distributed databases",1
+"distributed shared memory systems",1
+"divertors",1
+"document image processing",1
+"drag",1
+"driver information systems",1
+"drops",1
+"drying",1
+"duality (mathematics)",1
+"dynamic scheduling",1
+"ecology",1
+"econophysics",1
+"eddy current losses",1
+"eddy current testing",1
+"educational administrative data processing",1
+"educational courses",1
+"elastic moduli",1
+"electric actuators",1
+"electric drives",1
+"electric field integral equations",1
+"electric impedance measurement",1
+"electric machines",1
+"electric noise measurement",1
+"electric potential",1
+"electric reactance",1
+"electric sensing devices",1
+"electric variables measurement",1
+"electrical faults",1
+"electrical resistivity",1
+"electroactive polymer actuators",1
+"electrochemical electrodes",1
+"electrohydrodynamics",1
+"electroluminescent devices",1
+"electromagnetic compatibility",1
+"electromagnetic coupling",1
+"electromagnetic devices",1
+"electromagnetic fields",1
+"electromagnetic induction",1
+"electromagnetic wave absorption",1
+"electromagnetic wave reflection",1
+"electromagnetic wave transmission",1
+"electron accelerators",1
+"electron affinity",1
+"electron density",1
+"electron-electron scattering",1
+"electronic data interchange",1
+"electronic health records",1
+"electronic messaging",1
+"electronics industry",1
+"electroplating",1
+"electrostatic actuators",1
+"elliptic equations",1
+"elongation",1
+"epidemics",1
+"erbium compounds",1
+"ergonomics",1
+"error correction",1
+"error detection",1
+"estimation theory",1
+"evolution (biological)",1
+"factory automation",1
+"fast Fourier transforms",1
+"fatigue",1
+"fault location",1
+"fault tolerant computing",1
+"fault tolerant control",1
+"fault trees",1
+"faulting",1
+"feedback amplifiers",1
+"ferroelectric thin films",1
+"fibre optic gyroscopes",1
+"field effect MMIC",1
+"field emission electron microscopy",1
+"filamentation instability",1
+"filters",1
+"financial data processing",1
+"finite automata",1
+"finite difference methods",1
+"flameproofing",1
+"flexible manipulators",1
+"flicker noise",1
+"flip-chip devices",1
+"floating point arithmetic",1
+"flow control",1
+"flow visualisation",1
+"fluidics",1
+"foils",1
+"formal languages",1
+"forward error correction",1
+"fracture mechanics",1
+"free radicals",1
+"frequency dividers",1
+"frequency modulation",1
+"frequency selective surfaces",1
+"frequency stability",1
+"frequency synthesizers",1
+"frequency-domain analysis",1
+"friction",1
+"function approximation",1
+"fusion reactor design",1
+"fusion reactor safety",1
+"fuzzy systems",1
+"gadolinium compounds",1
+"gain control",1
+"gallium",1
+"gamma distribution",1
+"gamma-ray effects",1
+"garnets",1
+"gas lasers",1
+"gas sensors",1
+"geodesy",1
+"geometrical optics",1
+"geophysical prospecting",1
+"geophysics computing",1
+"glass",1
+"glow discharges",1
+"government policies",1
+"gradient index optics",1
+"grid computing",1
+"groundwater",1
+"group theory",1
+"groupware",1
+"gyromagnetic effect",1
+"gyroscopes",1
+"gyrotrons",1
+"hardware-software codesign",1
+"heavy water",1
+"helicons",1
+"heterojunction bipolar transistors",1
+"high definition television",1
+"high level languages",1
+"high-frequency effects",1
+"high-temperature techniques",1
+"higher order statistics",1
+"hole traps",1
+"holographic interferometry",1
+"horn antennas",1
+"humidity measurement",1
+"hydraulic turbines",1
+"hydrogen bonds",1
+"hydrological equipment",1
+"hydrological techniques",1
+"hydrophones",1
+"hygrometers",1
+"hypermedia markup languages",1
+"hyperthermia",1
+"hysteresis",1
+"ice",1
+"identification",1
+"image retrieval",1
+"image watermarking",1
+"impact ionisation",1
+"impedance matching",1
+"impedance matrix",1
+"impulse noise",1
+"industrial economics",1
+"industrial property",1
+"infinite horizon",1
+"inflatable structures",1
+"infrared detectors",1
+"inhomogeneous media",1
+"installation",1
+"insulated gate bipolar transistors",1
+"insulation testing",1
+"insulators",1
+"integral equations",1
+"integrated circuit metallisation",1
+"integrated circuit reliability",1
+"integrated circuit yield",1
+"integrating circuits",1
+"interactive systems",1
+"interconnections",1
+"interference",1
+"interference (signal)",1
+"interference filters",1
+"interleaved codes",1
+"intermodulation distortion",1
+"internal combustion engines",1
+"investment",1
+"iodine",1
+"ion density",1
+"ion sensitive field effect transistors",1
+"ionisation potential",1
+"iron alloys",1
+"isolation technology",1
+"iterative decoding",1
+"jet engines",1
+"jets",1
+"jitter",1
+"junction gate field effect transistors",1
+"kinematics",1
+"knowledge acquisition",1
+"knowledge based systems",1
+"knowledge representation",1
+"ladder filters",1
+"lakes",1
+"land cover",1
+"lanthanum compounds",1
+"laser accessories",1
+"laser beam applications",1
+"laser frequency stability",1
+"laser ranging",1
+"laser reliability",1
+"laser variables measurement",1
+"laser velocimeters",1
+"lead acid batteries",1
+"lead bonding",1
+"leak detection",1
+"learning by example",1
+"learning systems",1
+"level control",1
+"level measurement",1
+"life testing",1
+"light diffraction",1
+"light emitting devices",1
+"light sources",1
+"lightning",1
+"linear colliders",1
+"linear induction motors",1
+"linear motors",1
+"linear systems",1
+"liquid crystal polymers",1
+"liquid metals",1
+"liquid phase deposition",1
+"lithography",1
+"liver",1
+"load forecasting",1
+"logistics data processing",1
+"loop antennas",1
+"losses",1
+"luminescence",1
+"lutetium compounds",1
+"machine bearings",1
+"machine vector control",1
+"machine windings",1
+"machining",1
+"magnetic actuators",1
+"magnetic cooling",1
+"magnetic forces",1
+"magnetic heads",1
+"magnetic hysteresis",1
+"magnetic levitation",1
+"magnetic noise",1
+"magnetic particles",1
+"magnetic recording",1
+"magnetic resonance spectroscopy",1
+"magnetic switching",1
+"magneto-optical devices",1
+"magneto-optical sensors",1
+"magnetoelectronics",1
+"magnetorheology",1
+"magnetrons",1
+"manganese",1
+"manufacturing systems",1
+"marine communication",1
+"marine radar",1
+"mass production",1
+"matched filters",1
+"mathematical operators",1
+"maximum power point trackers",1
+"mechanical testing",1
+"mechatronics",1
+"medical information systems",1
+"memristors",1
+"metering",1
+"microcellular radio",1
+"microcomputers",1
+"microelectrodes",1
+"microfluidics",1
+"microlenses",1
+"micromagnetics",1
+"micromotors",1
+"microphones",1
+"microrobots",1
+"microstrip filters",1
+"microwave detectors",1
+"microwave diodes",1
+"microwave filters",1
+"microwave integrated circuits",1
+"microwave materials processing",1
+"microwave phase shifters",1
+"millimetre wave amplifiers",1
+"millimetre wave antennas",1
+"millimetre wave couplers",1
+"millimetre wave directional couplers",1
+"millimetre wave filters",1
+"millimetre wave integrated circuits",1
+"millimetre wave oscillators",1
+"millimetre wave power amplifiers",1
+"millimetre wave propagation",1
+"millimetre wave transistors",1
+"millimetre waves",1
+"mixers (circuits)",1
+"mobile ad hoc networks",1
+"modal analysis",1
+"modulation coding",1
+"modulators",1
+"modules",1
+"molecular configurations",1
+"molybdenum compounds",1
+"monolayers",1
+"monolithic integrated circuits",1
+"motor drives",1
+"moving average processes",1
+"multi-robot systems",1
+"multifrequency antennas",1
+"multimedia communication",1
+"multimedia systems",1
+"multiplexing equipment",1
+"multiuser channels",1
+"multivariable control systems",1
+"musical instruments",1
+"nanoelectromechanical devices",1
+"nanolithography",1
+"nanotechnology",1
+"natural languages",1
+"near-field scanning optical microscopy",1
+"nematic liquid crystals",1
+"network-on-chip",1
+"networked control systems",1
+"neurocontrollers",1
+"neutron detection",1
+"nickel alloys",1
+"nickel compounds",1
+"niobium",1
+"noise",1
+"noise (working environment)",1
+"noise abatement",1
+"nonlinear distortion",1
+"nonlinear estimation",1
+"nonlinear network analysis",1
+"nonlinear programming",1
+"nonparametric statistics",1
+"notebook computers",1
+"nozzles",1
+"nuclear engineering computing",1
+"nuclear explosions",1
+"nuclear power stations",1
+"nucleation",1
+"object recognition",1
+"object-oriented methods",1
+"occultations",1
+"ocean waves",1
+"offshore installations",1
+"ohmic contacts",1
+"oil technology",1
+"on load tap changers",1
+"online front-ends",1
+"ontologies (artificial intelligence)",1
+"open loop systems",1
+"optical attenuators",1
+"optical bistability",1
+"optical constants",1
+"optical elements",1
+"optical hole burning",1
+"optical images",1
+"optical isolators",1
+"optical limiters",1
+"optical microscopes",1
+"optical parametric amplifiers",1
+"optical prisms",1
+"optical pulse shaping",1
+"optical testing",1
+"optical waveguide theory",1
+"optoelectronic devices",1
+"orthopaedics",1
+"orthotics",1
+"otoacoustic emissions",1
+"overcurrent protection",1
+"overvoltage protection",1
+"oxygen",1
+"p-n heterojunctions",1
+"pH",1
+"pH measurement",1
+"packet reservation multiple access",1
+"paediatrics",1
+"paints",1
+"palmprint recognition",1
+"parallel algorithms",1
+"parallel plate waveguides",1
+"partial differential equations",1
+"partial discharge measurement",1
+"particle beam bunching",1
+"particle beam extraction",1
+"particle detectors",1
+"particle traps",1
+"patient care",1
+"pattern formation",1
+"pattern matching",1
+"percolation",1
+"performance index",1
+"periodic structures",1
+"permanent magnet generators",1
+"permanent magnet machines",1
+"permanent magnet motors",1
+"perturbation techniques",1
+"petroleum industry",1
+"phase coding",1
+"phase locked loops",1
+"phase locked oscillators",1
+"phase transformations",1
+"phasor measurement",1
+"phonons",1
+"photoacoustic effect",1
+"photoelectricity",1
+"photoexcitation",1
+"photometers",1
+"photon counting",1
+"photons",1
+"photoplethysmography",1
+"photorefractive materials",1
+"photosynthesis",1
+"photothermal effects",1
+"phototransistors",1
+"photovoltaic effects",1
+"physics computing",1
+"physiology",1
+"piecewise constant techniques",1
+"piecewise polynomial techniques",1
+"piezoelectric materials",1
+"piezoelectric oscillations",1
+"piezoelectric semiconductors",1
+"piezoresistive devices",1
+"pipe flow",1
+"pipelines",1
+"pipes",1
+"planar antenna arrays",1
+"planar antennas",1
+"planar inverted-F antennas",1
+"planetary surfaces",1
+"planning (artificial intelligence)",1
+"plasma boundary layers",1
+"plasma devices",1
+"plasma fluctuations",1
+"plasma materials processing",1
+"plasma production by laser",1
+"plasma sheaths",1
+"plasma shock waves",1
+"plasma sources",1
+"plasma toroidal confinement",1
+"plasma transport processes",1
+"pneumatic actuators",1
+"pneumatic systems",1
+"poles and zeros",1
+"polymer fibres",1
+"population inversion",1
+"portable instruments",1
+"position sensitive particle detectors",1
+"potentiometers",1
+"power apparatus",1
+"power cables",1
+"power capacitors",1
+"power dividers",1
+"power factor",1
+"power generation dispatch",1
+"power generation faults",1
+"power generation planning",1
+"power generation protection",1
+"power generation reliability",1
+"power generation scheduling",1
+"power harmonic filters",1
+"power semiconductor devices",1
+"power semiconductor switches",1
+"power supplies to apparatus",1
+"power system analysis computing",1
+"power system harmonics",1
+"power system parameter estimation",1
+"power system planning",1
+"power system protection",1
+"power system reliability",1
+"power system simulation",1
+"power systems",1
+"power transmission economics",1
+"power transmission protection",1
+"preamplifiers",1
+"pressure control",1
+"pressure measurement",1
+"pressure sensors",1
+"pressure transducers",1
+"printed circuit testing",1
+"private key cryptography",1
+"product life cycle management",1
+"production equipment",1
+"program processors",1
+"program verification",1
+"programmable circuits",1
+"project management",1
+"projectiles",1
+"proton exchange membrane fuel cells",1
+"public key cryptography",1
+"pulse frequency modulation",1
+"pulse width modulation",1
+"pumped-storage power stations",1
+"quadratic programming",1
+"quantum cascade lasers",1
+"quantum dash lasers",1
+"radar detection",1
+"radar resolution",1
+"radar target recognition",1
+"radiation hardening",1
+"radiation monitoring",1
+"radiative transfer",1
+"radio direction-finding",1
+"radio equipment",1
+"radiofrequency heating",1
+"radiofrequency power transmission",1
+"radiometry",1
+"railway communication",1
+"railways",1
+"rain",1
+"random media",1
+"random noise",1
+"rapid prototyping (industrial)",1
+"reaction-diffusion systems",1
+"reactive power",1
+"reactive power control",1
+"reactors (electric)",1
+"reconfigurable architectures",1
+"recrystallisation annealing",1
+"rectennas",1
+"rectifying circuits",1
+"recurrent neural nets",1
+"recursive estimation",1
+"redundancy",1
+"redundant manipulators",1
+"reflector antennas",1
+"refractometers",1
+"regenerative braking",1
+"relay protection",1
+"relays",1
+"reliability theory",1
+"remaining life assessment",1
+"remotely operated vehicles",1
+"renewable energy sources",1
+"renewable materials",1
+"resins",1
+"resonance",1
+"resonant power convertors",1
+"resonant tunnelling",1
+"resonant tunnelling diodes",1
+"reverberation",1
+"reversed field pinch",1
+"risk analysis",1
+"road traffic",1
+"road traffic control",1
+"road vehicle radar",1
+"road vehicles",1
+"robot dynamics",1
+"robot kinematics",1
+"robot programming",1
+"robot vision",1
+"robots",1
+"rolling bearings",1
+"rolling friction",1
+"rough surfaces",1
+"rubidium",1
+"safety",1
+"sandwich structures",1
+"satellite telemetry",1
+"scintillation",1
+"search engines",1
+"security",1
+"seismic waves",1
+"selenium",1
+"self-organising feature maps",1
+"semantic Web",1
+"semantic networks",1
+"semiconductor device noise",1
+"semiconductor diodes",1
+"semiconductor doping",1
+"semiconductor junctions",1
+"semiconductor materials",1
+"semiconductor quantum wires",1
+"semiconductor superlattices",1
+"sensitivity",1
+"service robots",1
+"shape memory effects",1
+"shift registers",1
+"shock waves",1
+"shot noise",1
+"signal generators",1
+"signal representation",1
+"signal resolution",1
+"signal restoration",1
+"silicon alloys",1
+"silicone insulation",1
+"silicone rubber",1
+"simulated annealing",1
+"slabs",1
+"slot antennas",1
+"slow light",1
+"sludge treatment",1
+"smoke",1
+"smoothing methods",1
+"snubbers",1
+"software agents",1
+"software development management",1
+"software engineering",1
+"software performance evaluation",1
+"software quality",1
+"software reusability",1
+"software tools",1
+"solar absorber-convertors",1
+"solar energy concentrators",1
+"solar power stations",1
+"solenoids",1
+"solid scintillation detectors",1
+"somatosensory phenomena",1
+"sonar signal processing",1
+"source code (software)",1
+"source coding",1
+"space division multiple access",1
+"space vehicles",1
+"space-time block codes",1
+"spaceborne radar",1
+"spatiotemporal phenomena",1
+"speckle",1
+"spectral analysers",1
+"spectral line narrowing",1
+"spectrochemical analysis",1
+"spectrophotometers",1
+"spectroscopy",1
+"speech",1
+"speech recognition",1
+"speech synthesis",1
+"spiral antennas",1
+"splines (mathematics)",1
+"sprays",1
+"spread spectrum communication",1
+"sputter etching",1
+"state estimation",1
+"static VAr compensators",1
+"statistics",1
+"stereolithography",1
+"stock control",1
+"stock markets",1
+"stoichiometry",1
+"storage area networks",1
+"storage automation",1
+"storage management",1
+"storms",1
+"stratosphere",1
+"stray light",1
+"stress analysis",1
+"stress relaxation",1
+"string matching",1
+"strip lines",1
+"stroboscopes",1
+"structural engineering computing",1
+"subcarrier multiplexing",1
+"submillimetre wave amplifiers",1
+"submillimetre wave antennas",1
+"submillimetre wave devices",1
+"submillimetre wave diodes",1
+"submillimetre wave filters",1
+"submillimetre wave measurement",1
+"submillimetre wave transistors",1
+"subscriber loops",1
+"substation automation",1
+"substation protection",1
+"substations",1
+"substrate integrated waveguides",1
+"substrates",1
+"sulphur",1
+"sunlight",1
+"supercapacitors",1
+"superconducting cables",1
+"superconducting energy gap",1
+"superconducting junction devices",1
+"superconducting magnets",1
+"superconducting materials",1
+"superconducting microwave devices",1
+"superconducting processor circuits",1
+"superconducting tapes",1
+"superconducting thin films",1
+"superconductor-insulator-superconductor mixers",1
+"supercontinuum generation",1
+"superluminescent diodes",1
+"supply chain management",1
+"surface acoustic waves",1
+"surface charging",1
+"surface energy",1
+"surface enhanced Raman scattering",1
+"surface impedance",1
+"surface mount technology",1
+"surface recombination",1
+"surface scattering",1
+"surface tension",1
+"surface treatment",1
+"suspensions",1
+"sustainable development",1
+"switched mode power supplies",1
+"switchgear",1
+"synchronous machines",1
+"synchronous motor drives",1
+"synchronous motors",1
+"synchrotron radiation",1
+"system-in-package",1
+"tactile sensors",1
+"tanks (containers)",1
+"technology CAD (electronics)",1
+"telecommunication services",1
+"telecommunication standards",1
+"teleconferencing",1
+"telegraphy",1
+"telemetry",1
+"telerobotics",1
+"tellurium",1
+"temperature control",1
+"temperature distribution",1
+"temporal logic",1
+"tensile strength",1
+"tensile testing",1
+"terahertz spectroscopy",1
+"terahertz wave devices",1
+"terahertz wave spectra",1
+"terbium",1
+"test equipment",1
+"text analysis",1
+"thermal analysis",1
+"thermal expansion",1
+"thermal lensing",1
+"thermal power stations",1
+"thermal properties",1
+"thermal resistance",1
+"thermo-optical effects",1
+"thermoelectric conversion",1
+"thermoelectric cooling",1
+"thermoelectric devices",1
+"thermometers",1
+"thickness measurement",1
+"thin film capacitors",1
+"three-dimensional displays",1
+"time measurement",1
+"time of flight mass spectroscopy",1
+"time to market",1
+"time-digital conversion",1
+"time-varying channels",1
+"tin compounds",1
+"tissue engineering",1
+"titanium",1
+"titanium alloys",1
+"topology",1
+"torsion",1
+"touch sensitive screens",1
+"toxicology",1
+"trajectory control",1
+"transformer oil",1
+"transformer windings",1
+"transient analysis",1
+"transient response",1
+"transistor circuits",1
+"transistors",1
+"transmission electron microscopy",1
+"transmitters",1
+"transmultiplexing",1
+"transportation",1
+"travelling wave amplifiers",1
+"travelling wave tubes",1
+"tree searching",1
+"trees (electrical)",1
+"tunnelling",1
+"tunnels",1
+"turbulence",1
+"twisted pair cables",1
+"two-dimensional electron gas",1
+"two-photon processes",1
+"two-photon spectra",1
+"two-photon spectroscopy",1
+"ultrasonic materials testing",1
+"ultrasonic therapy",1
+"ultrasonic transducer arrays",1
+"ultrasonic transmission",1
+"ultraviolet detectors",1
+"ultraviolet spectroscopy",1
+"underground communication",1
+"underwater acoustic communication",1
+"uninterruptible power supplies",1
+"valence bands",1
+"velocimeters",1
+"velocity control",1
+"ventilation",1
+"vias",1
+"vibration control",1
+"video coding",1
+"video communication",1
+"video databases",1
+"video on demand",1
+"video retrieval",1
+"virtual private networks",1
+"viscoelasticity",1
+"visible spectroscopy",1
+"vision defects",1
+"visual perception",1
+"visual servoing",1
+"voltage measurement",1
+"wafer bonding",1
+"wafer level packaging",1
+"waste heat",1
+"water",1
+"water quality",1
+"water supply",1
+"wave equations",1
+"wave power generation",1
+"wave propagation",1
+"waveform analysis",1
+"waveform generators",1
+"waveguide components",1
+"waveguide discontinuities",1
+"waveguide lasers",1
+"waveguide transitions",1
+"waveguides",1
+"wavelength assignment",1
+"wearable antennas",1
+"wetting",1
+"wheels",1
+"wildfires",1
+"wind turbines",1
+"wireless mesh networks",1
+"wood",1
+"workstations",1
+"wounds",1
+"zinc",1

@@ -74,6 +74,9 @@ The following is sending a request to retrieve data about open-access academic j
 # limit: maximun number of reterieved journals must be 2000
 
 ie3data <- suppressMessages(IEEE_search(query = list(pu="IEEE", ctype = "Journals", pys = 2014, pye = 2014,oa=1,rs=1), limit=2000))
+
+# write raw data into csv
+write.csv(ie3data, file = "ie3data.csv")
 @
 
 The total number of corresponding journals is \Sexpr{length(ie3data$rank)}.
@@ -106,12 +109,18 @@ In the following, a ranking of top 5 popular topics is created.  Table function 
 # Count frequencies of keywords and 
 sortedTable <- sort(table(index), TRUE)
 
+# write top 5 keywords to csv
+write.csv(sortedTable, file = "sortedTable.csv")
 
 #get top 5 keywords
 top5<-sortedTable[1:5]
 
 # Make a bar chart based on the data
 df <- data.frame(top5)
+
+# write top 5 keywords to csv
+write.csv(df, file = "top5topics.csv")
+
 # get No.1 keyword
 top<-row.names(df)[[1]]
 
@@ -228,10 +237,14 @@ sortedTable <- sort(table(countries), TRUE)[1:5]
 df2 <- data.frame(sortedTable)
 
 
+
 # Add rank label
 colnames(df2) <- c("Num")
 c1<-c("1.","2.","3.","4.","5.")
 cols<-paste(c1, row.names(df2), sep=" ")
+
+# write top 5 countries to csv
+write.csv(df2, file = "top5Countries.csv")
 
 @
 
